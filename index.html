@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advanced Java Lab (23IT5351) | Kambala Bhanu Prasad</title>
+    <link rel="stylesheet" href="style.css">
+    
+</div>
+
+</head>
+<body>
+
+<header>
+    <h1>Advanced Java Lab (23IT5351)</h1>
+    <h2>Kambala Bhanu Prasad  Roll No: 248W5A1209</h2>
+</header>
+
+<div class="layout">
+
+    <!-- LEFT SIDE WEEK NAVIGATION -->
+    <div class="sidebar">
+        <script>
+            for (let i = 1; i <= 12; i++) {
+                document.write(`<div class='week-btn' onclick='loadWeek(${i})'>Week ${i}</div>`);
+            }
+        </script>
+    </div>
+
+    <!-- RIGHT SIDE CONTENT VIEWER -->
+    <div class="content-area">
+        
+        <div class="content-header">
+            <h2 id="week-title">Choose a Week</h2>
+            <a id="downloadLink" class="download-btn" download>Download Here</a>
+        </div>
+
+        <iframe id="frame"></iframe>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
